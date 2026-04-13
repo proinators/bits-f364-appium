@@ -80,3 +80,6 @@ For goibibo the home activity is `com.goibibo/com.goibibo.common.HomeActivity`
 13. If `com.goibibo:id/snack_bar_footer_left` shows up, tap that (poll the screen). Else tap on `<android.widget.TextView text="CONFIRM" resource-id="com.goibibo:id/right_cta">` when that appears. 
 14. Once again clear popups if any snack_bar_footer_left appears, then `<android.widget.TextView text="Skip To Payment" resource-id="com.goibibo:id/tv_clear_skip">` tap on that.
 15. Wait till `<android.widget.TextView text="₹ 6,733" content-desc="₹ 6,733" resource-id="fare_summary_amount">` shows up, then report the final price in the console.
+
+
+MMT one more popup: Rating. If `<android.widget.LinearLayout resource-id="com.makemytrip:id/rating_bar">` shows up, then tap on `<android.view.View resource-id="com.makemytrip:id/view_bg_dark">`
