@@ -39,5 +39,20 @@ This launches the app
 11. Wait until at least one `<android.view.View resource-id="listing_card_v2">` shows up, then keep scrolling and tracking all those listing cards. Under listing_card_v2 > listing_card_container > airline_header you will have `<android.widget.TextView text="IndiGo" resource-id="airline_name">` and under ...card_container somewhere again you will have the following data: `<android.widget.TextView text="21:00" resource-id="departure_time">`, `<android.widget.TextView text="HYD" resource-id="city_code">` (verify this and arrival city, don't add it to our list if this is not correct) `<android.widget.TextView text="2h 25m" content-desc="2 hours 25 minutes" resource-id="duration_text">`, `<android.widget.TextView text="Non stop" resource-id="stops_text">`, `<android.widget.TextView text="23:25" resource-id="arrival_time">`, `<android.widget.TextView text="DEL" resource-id="city_code">`, `<android.widget.TextView text="₹ 6,130" resource-id="final_price">`
 12. I should collect all this data, save it in a JSON and display it
 
+If at any point it asks for permissions, `<android.widget.Button text="Don't allow" resource-id="com.android.permissioncontroller:id/permission_deny_and_dont_ask_again_button">` tap on this.
+
+If at any point it shows a banner `<android.widget.FrameLayout resource-id="com.makemytrip:id/fl_popup_container">`, then tap on `<android.widget.ImageView resource-id="com.makemytrip:id/iv_close">`
+
 
 I'll be making the script so that it must have taps run through a decorator that passes through the tap but also counts it in a variable (for analysis as required by the assignment)
+
+## Stuff to implement
+Hlways stay updated banner for notifications
+Check if the date was already correct
+handle the app being in other pages - click back
+
+# Goibibo
+For goibibo the home activity is `com.goibibo/com.goibibo.common.HomeActivity`
+1. Close button for some of the popups: `<android.widget.ImageView content-desc="Close Button" resource-id="bs_cross">`
+2. Flights button `<android.widget.Button content-desc="Flights" resource-id="com.goibibo:id/itemContainer">`
+3. 
