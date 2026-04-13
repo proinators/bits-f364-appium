@@ -2,10 +2,10 @@
 ## Team members
 |             Name | ID No.        |
 |-----------------:|:--------------|
-| Albert Sebastian | 2023A7PS    H |
+| Albert Sebastian | 2023A7PS0118H |
 |    Pratyush Nair | 2023A7PS0160H |
-| Siddharth Bhatia | 2023A7PS    H |
-|    Vishisht T.B. | 2023A7PS    H |
+| Siddharth Bhatia | 2023A7PS1106H |
+|    Vishisht T.B. | 2023A7PS0042H |
 
 The Appium Code section of Part A of the assignment was done by Pratyush Nair.
 
@@ -25,4 +25,8 @@ Of course, you can also install it directly using pip:
 ```sh
 pip install Appium-Python-Client
 ```
-4. 
+4. Run:
+```sh
+uv run main.py --app goibibo --device <device ID>
+```
+or replace goibibo with mmt
