@@ -9,7 +9,15 @@
 
 The Appium Code section of Part A of the assignment was done by Pratyush Nair.
 
-## Setup
+## Setup - Selenium
+1. Make sure Python is installed
+2. Inside the directory, run `python -m venv hcivenv` to make a venv (name chosen arbitrarily)
+3. `source /hcivenv/bin/activate` (if bash/zsh)
+4. `pip install undetected-chromedriver`
+5. `pip install setuptools`
+6. Finally, run make_my_trip_selenium.py and go_ibibo_selenium.py.
+
+## Setup - Appium 
 1. Install JDK, the Android SDK and related platform tools, and setup your device for USB debugging (or setup an emulator)
 2. Install Appium Code (skip this step if everything required has been installed)
 ```sh
